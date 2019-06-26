@@ -1,8 +1,8 @@
 Identifier  =  "LibGeoData"
 Name        =  { English = "LibGeoData" }
 NameShort   =  "LibGeoData"
-Version     =  "0.3.5.6"
-Description =  { English = "MAp NOtes" }
+Version     =  "0.4"
+Description =  { English = "LibGeoData" }
 Author      =  "marcob@marcob.org"
 Website     =  "https://github.com/cubeslinger/LibGeoData"
 Email       =  "marcob@marcob.org"

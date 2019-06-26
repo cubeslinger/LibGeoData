@@ -1,12 +1,15 @@
 --
--- Addon       __geodata.lua
+-- Addon       LibGeoData.lua
 -- Author      marcob@marcob.org
--- StartDate   17/07/2018
--- Version     0.3
+-- StartDate   26/06/2019
+-- Version     0.4
 -- Source:     https://rift.magelo.com/en/zones.jspa
 --
 
-function __geodata()
+if not Library then Library = {} end
+if not Library.LibGeoData then Library.LibGeoData = {} end
+
+function Library.LibGeoData.geodata()
    -- the new instance
    local self =   {
                      db          =  {},
